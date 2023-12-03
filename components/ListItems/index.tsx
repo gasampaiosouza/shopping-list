@@ -53,12 +53,14 @@ const ListItem = ({ item, handleItemCheck, handleRemoveItem }: ListItemProps) =>
         htmlFor={label}
       >
         <Checkbox
+          aria-label="Check item"
           defaultChecked={isChecked}
           id={label}
           className="data-[state=checked]:bg-[#5ec401] data-[state=checked]:border-0 w-[20px] h-[20px] data-[state=unchecked]:bg-[#F0F1F2] dark:data-[state=unchecked]:bg-[#19202a] border-0 rounded-full"
           onCheckedChange={() => handleItemCheck(id)}
         />
         <span
+          aria-label={isChecked ? `Completed: ${label}` : `Incomplete: ${label}`}
           className={cn('text-sm font-medium', {
             'line-through text-gray-500': isChecked,
           })}

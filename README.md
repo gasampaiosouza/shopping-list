@@ -1,36 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🛒 Soso - Your unique shopping list!
 
-## Getting Started
+An exciting shopping list project developed using Next.js 14, Tailwind, TypeScript, and Shadcn, offering a modern web application for creating and managing shopping lists.
 
-First, run the development server:
+## ⭐️ Highlights
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Full Accessibility**: All components are accessible, allowing keyboard navigation and screen reader compatibility.
+- **Efficient Autocomplete**: Autocomplete from an [external API](https://api.frontendeval.com/fake/food/mi), fully accessible for keyboard navigation.
+- **Smart Debounce**: Utilization of debounce to prevent unnecessary requests to the API, providing a smoother experience.
+- **View Mode**: Toggle between light and dark mode, with dark mode set as default for a pleasant experience.
+- **API Security**: Enhanced security using Axios to access the external API, preventing potential XSS attack vulnerabilities.
+- **Quick Loading with Skeleton**: Utilization of Skeleton for loading your list while utilizing localStorage for storing items. This setup provides a preview while data is retrieved, making it ideal for potential requests to a database or similar scenarios.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 👨‍💻 How to Use
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. **Installation**: Clone this repository and run `npm install` to install the dependencies.
+2. **Running the Project**: Use `npm run dev` to start the development server.
+3. **Accessing the Application**: Access the application at `http://localhost:3000`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+> Fun fact: project developed with [_pnpm_](https://pnpm.io).
 
-## Learn More
+## 🤝 Contributions
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! Open issues for suggestions, bugs, or improvements. If you wish to contribute, fork the repository, make your changes, and open a pull request.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+_Thanks for passing by!_
