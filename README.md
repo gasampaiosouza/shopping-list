@@ -1,6 +1,6 @@
 # 🛒 Soso - Your unique shopping list!
 
-An exciting shopping list project developed using Next.js 14, Tailwind, TypeScript, and Shadcn, offering a modern web application for creating and managing shopping lists.
+An exciting shopping list project developed using **Next.js 14**, **Tailwind**, **TypeScript**, and **Shadcn**, offering a modern web application for creating and managing shopping lists.
 
 ## ⭐️ Highlights
 
