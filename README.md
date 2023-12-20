@@ -1,5 +1,7 @@
 # 🛒 Soso - Your unique shopping list!
 
+![soso gif](https://github.com/gasampaiosouza/shopping-list/assets/47998700/b21c8019-4133-45b1-8288-58ba796a715b)
+
 An exciting shopping list project developed using **Next.js 14**, **Tailwind**, **TypeScript**, and **Shadcn**, offering a modern web application for creating and managing shopping lists.
 
 ## ⭐️ Highlights
